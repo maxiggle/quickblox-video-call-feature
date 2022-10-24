@@ -25,6 +25,24 @@ class SelectUserEndCall extends SelectUserEvent {
   const SelectUserEndCall();
 }
 
+class SelectUserAcceptCall extends SelectUserEvent {
+  const SelectUserAcceptCall(this.sessionId);
+
+  final String sessionId;
+
+  @override
+  List<Object?> get props => [sessionId];
+}
+
+class SelectUserRejectCall extends SelectUserEvent {
+  const SelectUserRejectCall(this.sessionId);
+
+  final String sessionId;
+
+  @override
+  List<Object?> get props => [sessionId];
+}
+
 class SelectUserUpdateCallState extends SelectUserEvent {
   const SelectUserUpdateCallState(this.callState);
 

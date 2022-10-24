@@ -12,9 +12,13 @@ class NavigationService {
     return _instance;
   }
 
+  dynamic args;
+
   NavigationService._internal();
 
-  Future<void>? pushNamed(String routeName) {
+  Future<void>? pushNamed(String routeName, {dynamic args}) {
+    this.args = args;
+
     return navigatorKey.currentState?.pushNamed(routeName);
   }
 

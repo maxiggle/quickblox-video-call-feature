@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:quickblox_sdk/models/qb_rtc_session.dart';
-import 'package:quickblox_video/app/app.dart';
 import 'package:quickblox_video/features/select_user/bloc/select_user_bloc.dart';
 
 class MakeCallDialog extends StatelessWidget {
