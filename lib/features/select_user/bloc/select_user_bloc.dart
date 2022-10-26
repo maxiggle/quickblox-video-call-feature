@@ -35,13 +35,7 @@ class SelectUserBloc extends Bloc<SelectUserEvent, SelectUserState> {
     await _quickbloxService.initializeWebRTC();
 
     await _quickbloxService.subscribeCall();
-    await _quickbloxService.subscribeCallEnd();
-    await _quickbloxService.subscribeReject();
     await _quickbloxService.subscribeAccept(_onAccept);
-    await _quickbloxService.subscribeHangUp();
-    // _quickbloxService.subscribeVideoTrack();
-    await _quickbloxService.subscribeNotAnswer();
-    await _quickbloxService.subscribePeerConnection();
 
     emit(state.copyWith(isLoading: true));
     final response = await _quickbloxService.getUsers();

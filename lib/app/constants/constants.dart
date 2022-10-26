@@ -2,7 +2,7 @@
 
 const String DEFAULT_USER_PASSWORD = "quickblox";
 
-const String APPLICATION_ID = "98583";
-const String AUTH_KEY = "Rsz4VtcsV67CWOO";
-const String AUTH_SECRET = "POEHWyktCTVOWcV";
-const String ACCOUNT_KEY = "ThCDShdVSWHmdgLC8wbf";
+const String APPLICATION_ID = "98584";
+const String AUTH_KEY = "AGFBXYg-azdqZA3";
+const String AUTH_SECRET = "UZzmKPWvma6sAmZ";
+const String ACCOUNT_KEY = "dZcfaSsXdRpB2ecX1cF9";
