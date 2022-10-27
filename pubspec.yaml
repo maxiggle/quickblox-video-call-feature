@@ -12,7 +12,7 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   equatable: ^2.0.5
-  meta: ^1.8.0
+  meta: ^1.7.0
 
   # state management
   bloc: ^8.1.0

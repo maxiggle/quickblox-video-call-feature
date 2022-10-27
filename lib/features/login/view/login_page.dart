@@ -51,7 +51,7 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 32),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Theme.of(context).errorColor,
+                  primary: Theme.of(context).errorColor,
                 ),
                 onPressed:
                     isLoading ? null : context.read<LoginCubit>().onLogout,

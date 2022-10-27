@@ -26,7 +26,7 @@ class App extends StatelessWidget {
         BlocProvider<SplashCubit>(create: (_) => SplashCubit()),
       ],
       child: MaterialApp(
-        title: 'P2P Video',
+        title: 'Devrel Quick Video',
         theme: ThemeData(
           scaffoldBackgroundColor: Colors.white,
           textTheme:
